@@ -7,38 +7,35 @@
 		$action = isset($_POST['action']) ? $_POST['action'] : null;
 
 		list($width, $height) = getimagesize($_FILES["image"]["tmp_name"]);
-			// check if the file is really an image
-			if ($width == null && $height == null) {
-				die('Image not supported');
+		// check if the file is really an image
+		if ($width == null && $height == null) {
+			die('Image not supported');
 			return;
-			}
+		}
 
+		// if the image has the allowed format
 		$fileType = exif_imagetype($_FILES["image"]["tmp_name"]);
 		$allowed = array(IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG);
+
 		if (!in_array($fileType, $allowed)) {
 			die('Image not supported');
+			return;
 		}
 
 		$image = new Imagick($_FILES["image"]["tmp_name"]);
 
+		//if no image modification, just die.
 		if($action != null){
-
 			switch($action){
 
 				case 'resize':
 					resize($image,$options);
 					break;
 			}
-
 		}else{
-
 			die('No action present');
-
+			return;
 		}
-
-
-
-		
 	}
 
 
