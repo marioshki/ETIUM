@@ -16,8 +16,6 @@
 			if($w != null && $h!=null){
 				$this->image->adaptiveResizeImage($w,$h,false);
 			}else{
-				$h = $h == null ?  '0' : $h;
-				$w = $w == null ?  '0' : $w;
 				$this->image->resizeImage($w,$h,1,true);
 			}
 

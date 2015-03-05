@@ -9,8 +9,8 @@
 
 
 	if(isset($_GET['h']) || isset($_GET['w'])){
-		$h = isset($_GET['h']) ? $_GET['h'] : null;
-		$w = isset($_GET['w']) ? $_GET['w'] : null;
+		$h = isset($_GET['h']) ? $_GET['h'] : '0';
+		$w = isset($_GET['w']) ? $_GET['w'] : '0';
 
 		$image->resize($h,$w);
 	}
