@@ -13,7 +13,7 @@
 
 		<div style="float: right; width: 50%;">
 			<p>Resized</p>
-			<img src="/ImageEditor/api.php?source=http://image-editor.local:8000/images/example.png&w=400&h=400"/>
+			<img src="/ImageEditor/api.php?source=http://image-editor.local:8000/images/example.png&h=200"/>
 		</div>
 	</body>
 </html>

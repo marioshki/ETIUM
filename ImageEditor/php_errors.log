@@ -185,3 +185,106 @@ Stack trace:
 #1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
 #2 {main}
   thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:35:16 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:35:35 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:35:35 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:35:35 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:35:39 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:36:36 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:36:54 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:36:54 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:36:55 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:36:55 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:36:55 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:36:55 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:36:55 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('400', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('400', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:37:45 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('200', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('200', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:37:59 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:19
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(19): Imagick->resizeimage('200', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('200', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:39:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected ':' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 19
+[05-Mar-2015 19:39:28 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:21
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(21): Imagick->resizeimage('200', 0, 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('200', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 21
+[05-Mar-2015 19:39:48 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Invalid image geometry' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:21
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(21): Imagick->resizeimage('200', '0', 0, 1, true)
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(15): ImageEditor->resize('200', NULL)
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 21

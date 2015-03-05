@@ -14,14 +14,13 @@
 			$actual_height = $this->image->getImageHeight();
 
 			if($w != null && $h!=null){
-				$this->image->resizeImage($w,$h,null,1);
+				$this->image->adaptiveResizeImage($w,$h,false);
 			}else{
-				if($w!=null){
-					//CALCULAR RATIO AL CAMBIAR LA ALTURA
-				}else{
-					//CALCULAR RATIO AL CAMBIAR EL ANCHO
-				}
+				$h = $h == null ?  '0' : $h;
+				$w = $w == null ?  '0' : $w;
+				$this->image->resizeImage($w,$h,1,true);
 			}
+
 		}
 
 		public function getResult(){
