@@ -1,28 +1,16 @@
 <?php
 
-	//check if image file exists
-	if(isset($_FILES['image'])){
+		$options = isset($_GET['options']) ? $_GET['options'] : null;
+		$action = isset($_GET['action']) ? $_GET['action'] : null;
 
-		$options = isset($_POST['options']) ? $_POST['options'] : null;
-		$action = isset($_POST['action']) ? $_POST['action'] : null;
+		$image_url = isset($_GET['image_url'] ? $_GET['image_url']: '/images/example.png';
 
-		list($width, $height) = getimagesize($_FILES["image"]["tmp_name"]);
-		// check if the file is really an image
-		if ($width == null && $height == null) {
-			die('Image not supported');
-			return;
-		}
+		$handle = fopen($image_url, 'rb');
 
-		// if the image has the allowed format
-		$fileType = exif_imagetype($_FILES["image"]["tmp_name"]);
-		$allowed = array(IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG);
+		$image = new Imagick();
 
-		if (!in_array($fileType, $allowed)) {
-			die('Image not supported');
-			return;
-		}
+		$image->readImageFile($handle);
 
-		$image = new Imagick($_FILES["image"]["tmp_name"]);
 
 		//if no image modification, just die.
 		if($action != null){
@@ -39,7 +27,6 @@
 	}
 
 
-
 	function resize($image,$options){
 		$height = !empty($options['height']) ? $options['height'] : 300;
 		$width = !empty($options['width']) ? $options['width'] : 300;
@@ -53,7 +40,5 @@
 			echo $image;
 		}
 	}
-
-
 
 ?>
