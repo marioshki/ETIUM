@@ -1,0 +1,187 @@
+[05-Mar-2015 18:58:37 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 18:58:37 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 18:58:39 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 18:58:58 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 19:00:09 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 19:00:09 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 19:00:09 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 19:00:10 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 19:00:11 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 19:00:25 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 7
+[05-Mar-2015 19:01:11 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 8
+[05-Mar-2015 19:01:11 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 8
+[05-Mar-2015 19:01:12 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 8
+[05-Mar-2015 19:01:12 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 8
+[05-Mar-2015 19:01:38 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 13
+[05-Mar-2015 19:01:48 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 15
+[05-Mar-2015 19:01:48 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 15
+[05-Mar-2015 19:01:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 15
+[05-Mar-2015 19:02:04 Europe/Berlin] PHP Warning:  include_once(/ImageEditor.php): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 3
+[05-Mar-2015 19:02:04 Europe/Berlin] PHP Warning:  include_once(): Failed opening '/ImageEditor.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 3
+[05-Mar-2015 19:02:04 Europe/Berlin] PHP Fatal error:  Class 'ImageEditor' not found in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 5
+[05-Mar-2015 19:02:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 2
+[05-Mar-2015 19:02:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 2
+[05-Mar-2015 19:02:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$image' (T_VARIABLE), expecting function (T_FUNCTION) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 3
+[05-Mar-2015 19:05:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 4
+[05-Mar-2015 19:05:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 4
+[05-Mar-2015 19:06:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 5
+[05-Mar-2015 19:07:56 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:07:56 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:07:56 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:07:56 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:10 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:10 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:10 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:10 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:11 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:12 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:12 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:12 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:12 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:12 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:12 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:12 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:12 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:13 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:13 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:13 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:13 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:14 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:15 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:15 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:15 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:15 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:15 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:15 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:15 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:15 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:19 Europe/Berlin] PHP Warning:  fopen(images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:19 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:19 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:19 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:45 Europe/Berlin] PHP Warning:  fopen('/images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:08:45 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:08:45 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:08:45 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Warning:  fopen(/images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:51 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:09:52 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:10:28 Europe/Berlin] PHP Warning:  fopen(images/example.png): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:10:28 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:10:28 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:10:28 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:10:55 Europe/Berlin] PHP Notice:  Undefined variable: image in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:10:55 Europe/Berlin] PHP Fatal error:  Call to a member function getImageWidth() on a non-object in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:20:42 Europe/Berlin] PHP Fatal error:  Call to undefined method ImageEditor::getResult() in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 23
+[05-Mar-2015 19:20:58 Europe/Berlin] PHP Fatal error:  Call to undefined method ImageEditor::getResult() in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php on line 23
+[05-Mar-2015 19:21:50 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:21:50 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:21:50 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:15
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(15): Imagick->getimagewidth()
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:15
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(15): Imagick->getimagewidth()
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:15
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(15): Imagick->getimagewidth()
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:21:51 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:15
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(15): Imagick->getimagewidth()
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:22:01 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:22:01 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:22:01 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:15
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(15): Imagick->getimagewidth()
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:22:04 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:22:04 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:22:04 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:15
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(15): Imagick->getimagewidth()
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:22:05 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:22:05 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:22:05 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:15
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(15): Imagick->getimagewidth()
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
+[05-Mar-2015 19:22:37 Europe/Berlin] PHP Warning:  fopen('images/example.png'): failed to open stream: No such file or directory in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 9
+[05-Mar-2015 19:22:37 Europe/Berlin] PHP Warning:  Imagick::readimagefile() expects parameter 1 to be resource, boolean given in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 11
+[05-Mar-2015 19:22:37 Europe/Berlin] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php:15
+Stack trace:
+#0 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php(15): Imagick->getimagewidth()
+#1 /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/api.php(18): ImageEditor->resize('100', '100')
+#2 {main}
+  thrown in /home/shkliciouz/Proyectos/Image-Editor-API-Like/ImageEditor/ImageEditor.php on line 15
