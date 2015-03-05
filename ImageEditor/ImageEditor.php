@@ -1,9 +1,7 @@
 <?php
 	class ImageEditor
 	{
-
 		public $image;
-
 
 		public function setSource($source){
 			$handle = fopen($source, 'rb');
@@ -24,15 +22,10 @@
 					//CALCULAR RATIO AL CAMBIAR EL ANCHO
 				}
 			}
-
-
-			}
-
-
+		}
 
 		public function getResult(){
 			return $this->image;
 		}
-
 	}
 ?>
