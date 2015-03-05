@@ -1,29 +1,28 @@
 <?php
 
-		$options = isset($_GET['options']) ? $_GET['options'] : null;
-		$action = isset($_GET['action']) ? $_GET['action'] : null;
+	$options = isset($_GET['options']) ? $_GET['options'] : null;
+	$action = isset($_GET['action']) ? $_GET['action'] : null;
 
-		$image_url = isset($_GET['image_url'] ? $_GET['image_url']: '/images/example.png';
+	$image_url = isset($_GET['image_url'] ? $_GET['image_url']: '/images/example.png';
 
-		$handle = fopen($image_url, 'rb');
+	$handle = fopen($image_url, 'rb');
 
-		$image = new Imagick();
+	$image = new Imagick();
 
-		$image->readImageFile($handle);
+	$image->readImageFile($handle);
 
 
-		//if no image modification, just die.
-		if($action != null){
-			switch($action){
+	//if no image modification, just die.
+	if($action != null){
+		switch($action){
 
-				case 'resize':
-					resize($image,$options);
-					break;
-			}
-		}else{
-			die('No action present');
-			return;
+			case 'resize':
+				resize($image,$options);
+				break;
 		}
+	}else{
+		die('No action present');
+		return;
 	}
 
 
