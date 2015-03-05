@@ -4,7 +4,11 @@
 		public $image;
 
 		public function setSource($source){
-			$handle = fopen($source, 'rb');
+			if (strpos($source,'http://') !== false) {
+				$handle = fopen($source, 'rb');
+			}else{
+				$handle = fopen( $_SERVER['DOCUMENT_ROOT']  . $source, 'rb');
+			}
 			$this->image = new Imagick();
 			$this->image->readImageFile($handle);
 		}
