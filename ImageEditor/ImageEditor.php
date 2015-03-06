@@ -1,14 +1,12 @@
 <?php
 	class ImageEditor
 	{
-		public $image;
+		private $image;
 
 		public function setSource($source){
-			if (strpos($source,'http://') !== false) {
-				$handle = fopen($source, 'rb');
-			}else{
-				$handle = fopen( $_SERVER['DOCUMENT_ROOT']  . $source, 'rb');
-			}
+
+			$src = $this->kindOfSource($source);
+			$handle = fopen($src, 'rb');
 			$this->image = new Imagick();
 			$this->image->readImageFile($handle);
 		}
@@ -24,6 +22,15 @@
 			}
 
 		}
+
+		public function kindOfSource($source){
+			if(strpos($source, 'http://')===0 || strpos($source,'ftp://') === 0){
+				return $source;
+			}else{
+				return $_SERVER['DOCUMENT_ROOT'] . $source;
+			}
+		}
+
 
 		public function getResult(){
 			return $this->image;
