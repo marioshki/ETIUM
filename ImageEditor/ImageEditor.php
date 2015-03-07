@@ -11,6 +11,14 @@
 			$this->image->readImageFile($handle);
 		}
 
+		public function kindOfSource($source){
+			if(strpos($source, 'http://')===0 || strpos($source,'ftp://') === 0){
+				return $source;
+			}else{
+				return $_SERVER['DOCUMENT_ROOT'] . $source;
+			}
+		}
+
 		public function resize($w,$h){
 			$actual_width = $this->image->getImageWidth();
 			$actual_height = $this->image->getImageHeight();
@@ -20,16 +28,19 @@
 			}else{
 				$this->image->resizeImage($w,$h,1,true);
 			}
-
 		}
 
-		public function kindOfSource($source){
-			if(strpos($source, 'http://')===0 || strpos($source,'ftp://') === 0){
-				return $source;
-			}else{
-				return $_SERVER['DOCUMENT_ROOT'] . $source;
+		public function mirror($mirror_mode){
+			switch($mirror_mode){
+				case 'vertical':
+					$this->image->flipImage();
+					break;
+				case 'horizontal':
+					$this->image->flopImage();
+					break;
 			}
 		}
+
 
 
 		public function getResult(){

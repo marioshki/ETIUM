@@ -8,11 +8,16 @@
 	$image->setSource($source);
 
 
-	if(isset($_GET['h']) || isset($_GET['w'])){
-		$h = isset($_GET['h']) ? $_GET['h'] : '0';
-		$w = isset($_GET['w']) ? $_GET['w'] : '0';
+	if(isset($_GET['height']) || isset($_GET['width'])){
+		$h = isset($_GET['height']) ? $_GET['height'] : '0';
+		$w = isset($_GET['width']) ? $_GET['width'] : '0';
 
 		$image->resize($h,$w);
+	}
+
+	if(isset($_GET['mirror'])){
+		$mirror_mode = $_GET['mirror'];
+		$image->mirror($mirror_mode);
 	}
 
 	header("Content-Type: image/png");
