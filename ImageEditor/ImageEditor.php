@@ -35,7 +35,13 @@
 				case 'vertical':
 					$this->image->flipImage();
 					break;
+				case 'v':
+					$this->image->flipImage();
+					break;
 				case 'horizontal':
+					$this->image->flopImage();
+					break;
+				case 'h':
 					$this->image->flopImage();
 					break;
 			}

@@ -8,7 +8,7 @@
 	$source = 'http://image-editor.local:8000/images/example.png';
 	$width = null;
 	$height = null;
-
+	$mirror = null;
 
 
 
@@ -31,6 +31,11 @@
 		$height = $_GET['h'];
 	}
 
+	if(isset($_GET['mirror'])){
+		$mirror = $_GET['mirror'];
+	}elseif(isset($GET['mrr'])){
+		$mirror = $_GET['mrr'];
+	}
 
 
 
@@ -38,17 +43,7 @@
 
 	$image->resize($height,$width);
 
-	if(isset($_GET['height']) || isset($_GET['width'])){
-		$h = isset($_GET['height']) ? $_GET['height'] : null;
-		$w = isset($_GET['width']) ? $_GET['width'] : null;
-
-		$image->resize($h,$w);
-	}
-
-	if(isset($_GET['mirror'])){
-		$mirror_mode = $_GET['mirror'];
-		$image->mirror($mirror_mode);
-	}
+	$image->mirror($mirror);
 
 	header("Content-Type: image/png");
 	echo $image->getResult();
