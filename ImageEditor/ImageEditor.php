@@ -14,8 +14,10 @@
 		public function openSource($source){
 			if(strpos($source, 'http://')===0 || strpos($source,'ftp://') === 0){
 				return $source;
-			}else{
+			}elseif(file_exists($_SERVER['DOCUMENT_ROOT'] . $source)){
 				return $_SERVER['DOCUMENT_ROOT'] . $source;
+			}else{
+				return $_SERVER['DOCUMENT_ROOT'] . '/images/error.jpg';
 			}
 		}
 
@@ -45,6 +47,11 @@
 					$this->image->flipImage();
 					break;
 			}
+		}
+
+		public function opacity($opacity){
+			if($this->image->getImageMimeType() == 'image/png')
+				$this->image->evaluateImage(Imagick::EVALUATE_MULTIPLY, $opacity, Imagick::CHANNEL_ALPHA);
 		}
 
 		public function getResult(){

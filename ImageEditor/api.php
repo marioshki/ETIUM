@@ -9,6 +9,7 @@
 	$width = null;
 	$height = null;
 	$mirror = null;
+	$opacity = null;
 
 
 
@@ -33,18 +34,25 @@
 
 	if(isset($_GET['mirror'])){
 		$mirror = $_GET['mirror'];
-	}elseif(isset($GET['mrr'])){
+	}elseif(isset($_GET['mrr'])){
 		$mirror = $_GET['mrr'];
 	}
 
+	if(isset($_GET['opacity'])){
+		$opacity = $_GET['opacity'];
+	}elseif(isset($_GET['opc'])){
+		$opacity = $_GET['opc'];
+	}
 
-
-	$image->setSource($source);
-
-	$image->resize($height,$width);
-
-	$image->mirror($mirror);
-
+	if($source)
+		$image->setSource($source);
+	if($height || $width)
+		$image->resize($height,$width);
+	if($mirror)
+		$image->mirror($mirror);
+	if($opacity)
+		$image->opacity($opacity);
+	
 	header("Content-Type: image/png");
 	echo $image->getResult();
 ?>
