@@ -4,7 +4,13 @@
 
 
 	//DEFINED VARIABLES
-	$image = new ImageEditor();
+
+	if(class_exists('ImageEditor')){
+		$image = new ImageEditor();
+	}else{
+		die('Error loading ImageEditor');
+	}
+	
 	$source = 'http://image-editor.local:8000/images/example.png';
 	$width = null;
 	$height = null;
@@ -52,7 +58,7 @@
 		$image->mirror($mirror);
 	if($opacity)
 		$image->opacity($opacity);
-	
+
 	header("Content-Type: image/png");
 	echo $image->getResult();
 ?>

@@ -7,7 +7,11 @@
 
 			$src = $this->openSource($source);
 			$handle = fopen($src, 'rb');
-			$this->image = new Imagick();
+			if(class_exists('Imagick')){
+				$this->image = new Imagick();
+			}else{
+				die('Error loading Imagick');
+			}
 			$this->image->readImageFile($handle);
 		}
 
