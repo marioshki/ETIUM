@@ -5,13 +5,13 @@
 
 		public function setSource($source){
 
-			$src = $this->kindOfSource($source);
+			$src = $this->openSource($source);
 			$handle = fopen($src, 'rb');
 			$this->image = new Imagick();
 			$this->image->readImageFile($handle);
 		}
 
-		public function kindOfSource($source){
+		public function openSource($source){
 			if(strpos($source, 'http://')===0 || strpos($source,'ftp://') === 0){
 				return $source;
 			}else{
@@ -40,8 +40,6 @@
 					break;
 			}
 		}
-
-
 
 		public function getResult(){
 			return $this->image;
