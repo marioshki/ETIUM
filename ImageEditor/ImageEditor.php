@@ -33,16 +33,16 @@
 		public function mirror($mirror_mode){
 			switch($mirror_mode){
 				case 'vertical':
-					$this->image->flipImage();
+					$this->image->flopImage();
 					break;
 				case 'v':
-					$this->image->flipImage();
+					$this->image->flopImage();
 					break;
 				case 'horizontal':
-					$this->image->flopImage();
+					$this->image->flipImage();
 					break;
 				case 'h':
-					$this->image->flopImage();
+					$this->image->flipImage();
 					break;
 			}
 		}
