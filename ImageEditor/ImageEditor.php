@@ -73,6 +73,17 @@
 			$this->image->rotateImage(new ImagickPixel('#FFF'), $rotate);
 		}
 
+		// CROP IMAGE
+
+		public function crop($crop){
+			$crop = json_decode($crop);
+			if( !empty( $crop[0] ) && !empty( $crop[1] ) && !empty( $crop[2] ) && !empty( $crop[3] ) ){
+				$this->image->cropImage($crop[0],$crop[1],$crop[2],$crop[3]);
+			}else{
+				return false;
+			}
+		}
+
 		public function getResult(){
 			return $this->image;
 		}

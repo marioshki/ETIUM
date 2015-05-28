@@ -17,7 +17,7 @@
 	$mirror = null;
 	$opacity = null;
 	$rotate = null;
-
+	$crop = null;
 
 
 	//LOOK UP FOR ALIASES OR SHORT CONFIGURATIONS
@@ -57,6 +57,12 @@
 		$rotate = $_GET['rtt'];
 	}
 
+	if(isset($_GET['crop'])){
+		$crop = $_GET['crop'];
+	}elseif(isset($_GET['crp'])){
+		$crop = $_GET['crp'];
+	}
+
 	//DO THE MAGIC
 
 	if($source)
@@ -73,6 +79,9 @@
 
 	if($rotate)
 		$image->rotate($rotate);
+
+	if($crop)
+		$image->crop($crop);
 
 	header("Content-Type: image/png");
 	echo $image->getResult();
