@@ -3,6 +3,8 @@
 	{
 		private $image;
 
+		//SET THE SOURCE (LOCAL OR REMOTE)
+
 		public function setSource($source){
 
 			$src = $this->openSource($source);
@@ -15,6 +17,7 @@
 			$this->image->readImageFile($handle);
 		}
 
+		// HANDLE THE SOURCE
 		public function openSource($source){
 			if(strpos($source, 'http://')===0 || strpos($source,'ftp://') === 0){
 				return $source;
@@ -24,6 +27,8 @@
 				return $_SERVER['DOCUMENT_ROOT'] . '/images/error.jpg';
 			}
 		}
+
+		// RESIZE THE IMAGE
 
 		public function resize($w,$h){
 			$actual_width = $this->image->getImageWidth();
@@ -35,6 +40,8 @@
 				$this->image->resizeImage($w,$h,1,true);
 			}
 		}
+
+		//MIRROR THE IMAGE
 
 		public function mirror($mirror_mode){
 			switch($mirror_mode){
@@ -53,6 +60,8 @@
 			}
 		}
 
+
+		// CHANGE THE IMAGE OPACITY (ONLY PNG)
 		public function opacity($opacity){
 			if($this->image->getImageMimeType() == 'image/png')
 				$this->image->evaluateImage(Imagick::EVALUATE_MULTIPLY, $opacity, Imagick::CHANNEL_ALPHA);
