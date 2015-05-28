@@ -10,12 +10,13 @@
 	}else{
 		die('Error loading ImageEditor');
 	}
-	
+
 	$source = 'http://image-editor.local:8000/images/example.png';
 	$width = null;
 	$height = null;
 	$mirror = null;
 	$opacity = null;
+	$rotate = null;
 
 
 
@@ -50,14 +51,28 @@
 		$opacity = $_GET['opc'];
 	}
 
+	if(isset($_GET['rotate'])){
+		$rotate = $_GET['rotate'];
+	}elseif(isset($_GET['rtt'])){
+		$rotate = $_GET['rtt'];
+	}
+
+	//DO THE MAGIC
+
 	if($source)
 		$image->setSource($source);
+
 	if($height || $width)
 		$image->resize($height,$width);
+
 	if($mirror)
 		$image->mirror($mirror);
+
 	if($opacity)
 		$image->opacity($opacity);
+
+	if($rotate)
+		$image->rotate($rotate);
 
 	header("Content-Type: image/png");
 	echo $image->getResult();

@@ -58,6 +58,12 @@
 				$this->image->evaluateImage(Imagick::EVALUATE_MULTIPLY, $opacity, Imagick::CHANNEL_ALPHA);
 		}
 
+		// ROTATE IMAGE
+
+		public function rotate($rotate){
+			$this->image->rotateImage(new ImagickPixel('#FFF'), $rotate);
+		}
+
 		public function getResult(){
 			return $this->image;
 		}
