@@ -84,6 +84,17 @@
 			}
 		}
 
+		// CHOP IMAGE
+
+		public function chop($chop){
+			$chop = json_decode($chop);
+			if( !empty( $chop[0] ) && !empty( $chop[1] ) && !empty( $chop[2] ) && !empty( $chop[3] ) ){
+				$this->image->chopImage($chop[0],$chop[1],$chop[2],$chop[3]);
+			}else{
+				return false;
+			}
+		}
+
 		public function getResult(){
 			return $this->image;
 		}
