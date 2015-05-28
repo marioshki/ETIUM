@@ -70,7 +70,12 @@
 		// ROTATE IMAGE
 
 		public function rotate($rotate){
-			$this->image->rotateImage(new ImagickPixel('#FFF'), $rotate);
+			$rotate = json_decode($rotate);
+			if(empty($rotate[1])){
+				return $this->image->rotateImage(new ImagickPixel("rgba(250,255,255,0)"), $rotate[0]);
+			}else{
+				return $this->image->rotateImage(new ImagickPixel($rotate[1]), $rotate[0]);
+			}
 		}
 
 		// CROP IMAGE
