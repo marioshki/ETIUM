@@ -20,6 +20,7 @@
 	$crop = null;
 	$chop = null;
 	$blur = null;
+	$format = null;
 
 	//LOOK UP FOR ALIASES OR SHORT CONFIGURATIONS
 	if(isset($_GET['source'])){
@@ -76,6 +77,11 @@
 		$blur = $_GET['blr'];
 	}
 
+	if(isset($_GET['format'])){
+		$format = $_GET['format'];
+	}elseif(isset($_GET['fmt'])){
+		$format = $_GET['fmt'];
+	}
 
 
 	//DO THE MAGIC
@@ -103,6 +109,9 @@
 
 	if($blur)
 		$image->blur($blur);
+
+	if($format)
+		$image->format($format);
 
 	header("Content-Type: image/png");
 	echo $image->getResult();

@@ -110,6 +110,12 @@
 			}
 		}
 
+		// CHANGE IMAGE FORMAT
+
+		public function format($format){
+			return $this->image->setFormat($format);
+		}
+
 		public function getResult(){
 			return $this->image;
 		}
