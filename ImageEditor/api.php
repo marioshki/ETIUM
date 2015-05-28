@@ -19,6 +19,7 @@
 	$rotate = null;
 	$crop = null;
 	$chop = null;
+	$blur = null;
 
 	//LOOK UP FOR ALIASES OR SHORT CONFIGURATIONS
 	if(isset($_GET['source'])){
@@ -69,6 +70,14 @@
 		$chop = $_GET['chp'];
 	}
 
+	if(isset($_GET['blur'])){
+		$blur = $_GET['blur'];
+	}elseif(isset($_GET['blr'])){
+		$blur = $_GET['blr'];
+	}
+
+
+
 	//DO THE MAGIC
 
 	if($source)
@@ -91,6 +100,9 @@
 
 	if($chop)
 		$image->chop($chop);
+
+	if($blur)
+		$image->blur($blur);
 
 	header("Content-Type: image/png");
 	echo $image->getResult();

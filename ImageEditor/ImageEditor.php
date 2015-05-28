@@ -88,8 +88,23 @@
 
 		public function chop($chop){
 			$chop = json_decode($chop);
-			if( !empty( $chop[0] ) && !empty( $chop[1] ) && !empty( $chop[2] ) && !empty( $chop[3] ) ){
-				$this->image->chopImage($chop[0],$chop[1],$chop[2],$chop[3]);
+			if(!empty($chop[0]) && !empty($chop[1]) && !empty($chop[2]) && !empty($chop[3])){
+				return $this->image->chopImage($chop[0],$chop[1],$chop[2],$chop[3]);
+			}else{
+				return false;
+			}
+		}
+
+		// BLUR IMAGE
+
+		public function blur($blur){
+			$blur = json_decode($blur);
+			if( !empty($blur[0]) && !empty($blur[1]) ){
+				if(empty($blur[2])){
+					return $this->image->blurImage($blur[0],$blur[1]);
+				}else{
+					return $this->image->blurImage($blur[0],$blur[1],$blur[2]);
+				}
 			}else{
 				return false;
 			}
